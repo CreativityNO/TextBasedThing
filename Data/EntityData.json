@@ -1,0 +1,42 @@
+{
+    "name": "",
+    "age": 0,
+    "size": 0,
+    "resources":{
+        "health": 10,
+        "vigor": 10,
+        "mana": 10
+    },
+    "stats": {
+        "strength": 1,
+        "intelligence": 1
+    },
+    "basic_attack": {
+        "base_damage": 1,
+        "stat_multipliers": [
+            {
+                "name": "strength",
+                "multiplier": 0.75
+            },
+            {
+                "name": "intelligence",
+                "multiplier": 0.25
+            }
+        ],
+        "affects": [
+            {
+                "name": "bleed"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "stab"
+        }
+    ],
+    "titles": [
+        {
+            "name": "title"
+        }
+    ]
+}
