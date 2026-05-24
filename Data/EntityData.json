@@ -25,7 +25,8 @@
         ],
         "affects": [
             {
-                "name": "bleed"
+                "name": "bleed",
+                "stacks": 1
             }
         ],
         "costs": [
