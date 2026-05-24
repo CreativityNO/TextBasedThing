@@ -3,9 +3,9 @@
     "age": 0,
     "size": 0,
     "resources":{
-        "health": 10,
-        "vigor": 10,
-        "mana": 10
+        "health": 10.0,
+        "vigor": 10.0,
+        "mana": 10.0
     },
     "stats": {
         "strength": 1,
@@ -27,6 +27,9 @@
             {
                 "name": "bleed"
             }
+        ],
+        "costs": [
+            {"vigor": 1.0}
         ]
     },
     "skills": [
