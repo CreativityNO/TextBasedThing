@@ -1,0 +1,7 @@
+{
+    "bleed": {
+        "on_hit": 0.0,
+        "on_turn_start": 1.0,
+        "duration": 5
+    }
+}
