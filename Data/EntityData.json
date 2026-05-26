@@ -3,44 +3,55 @@
     "age": 0,
     "size": 0,
     "resources":{
+        "max_health": 10.0,
+        "max_vigor": 10.0,
+        "max_mana": 10.0,
         "health": 10.0,
         "vigor": 10.0,
         "mana": 10.0
     },
+    "active_affects": {},
     "stats": {
         "strength": 1,
         "intelligence": 1
     },
     "basic_attack": {
         "base_damage": 1,
-        "stat_multipliers": [
+        "stat_multipliers": 
             {
-                "name": "strength",
-                "multiplier": 0.75
+                "strength": 0.75,
+                "intelligence": 0.25
+            }
+        ,
+        "affects": {
+                "bleed": 1
             },
-            {
-                "name": "intelligence",
-                "multiplier": 0.25
+        "costs": {
+                "vigor": 1.0
             }
-        ],
-        "affects": [
-            {
-                "name": "bleed",
-                "stacks": 1
-            }
-        ],
-        "costs": [
-            {"vigor": 1.0}
-        ]
+        
     },
-    "skills": [
+    "skills": 
         {
-            "name": "stab"
-        }
-    ],
-    "titles": [
+            "stab": {
+                "type": 0,
+                "base_damage": 2.0,
+                "stat_multipliers": 
+            {
+                "strength": 0.75,
+                "intelligence": 0.25
+            }
+        ,
+        "affects": {
+                "bleed": 2
+            },
+        "costs": {
+                "vigor": 2.0
+            }
+            }
+        },
+    "titles": 
         {
-            "name": "title"
+            "first_step": {}
         }
-    ]
 }
